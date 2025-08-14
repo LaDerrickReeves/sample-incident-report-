@@ -13,7 +13,6 @@ Incident reports are important for documenting security events, helping to ident
 <h2>Cybersecurity Scenario:</h2>
 
 <p align="center">
-DDoS Attack Response and Mitigation
   I am a cybersecurity analyst working for a multimedia company that provides a range of digital services, including web design, graphic design, and social media marketing solutions for small businesses. Recently, our organization experienced a significant cybersecurity incident in the form of a distributed denial-of-service (DDoS) attack that temporarily compromised our internal network. The attack lasted approximately two hours and caused major disruptions to our normal business operations.
 
 During the attack, our network services suddenly became unresponsive. Internal users were unable to access critical systems, applications, or resources because the attack involved a massive flood of ICMP packets targeting our network. Essentially, the attack overwhelmed our systems with a high volume of traffic, preventing legitimate users from performing their work. This type of attack is particularly dangerous because it can paralyze a network in a very short amount of time if proper controls are not in place.
@@ -111,6 +110,13 @@ Recover:  <br/>
 Reflections:  <br/>
 
 A misconfigured firewall can leave the network vulnerable and lead to serious damage.
+
+<hr>
+<p><strong>Source:</strong> Scenario adapted from <a href="https://www.coursera.org" target="_blank">Coursera</a> course materials.
+
+> **Learning Source:** I completed the [Google Cybersecurity Certificate](https://www.coursera.org/professional-certificates/google-cybersecurity) program on Coursera, which helped me understand and apply the concepts demonstrated in this scenario.  
+</p>
+
 
 </p>
 
