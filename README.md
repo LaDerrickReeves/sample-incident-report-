@@ -1,131 +1,76 @@
-<h1> Sample Incident Report</h1>
-
- 
+<h1>Incident Report Analysis – DDoS Attack (ICMP Flood)</h1>
 
 <h2>Description</h2>
-Incident reports are important for documenting security events, helping to identify patterns, and preventing future incidents. I use them to ensure accountability and support effective mitigation strategies.
-<br />
-
-
-
-
-
-<h2>Cybersecurity Scenario:</h2>
-
-<p align="center">
-  I am a cybersecurity analyst working for a multimedia company that provides a range of digital services, including web design, graphic design, and social media marketing solutions for small businesses. Recently, our organization experienced a significant cybersecurity incident in the form of a distributed denial-of-service (DDoS) attack that temporarily compromised our internal network. The attack lasted approximately two hours and caused major disruptions to our normal business operations.
-
-During the attack, our network services suddenly became unresponsive. Internal users were unable to access critical systems, applications, or resources because the attack involved a massive flood of ICMP packets targeting our network. Essentially, the attack overwhelmed our systems with a high volume of traffic, preventing legitimate users from performing their work. This type of attack is particularly dangerous because it can paralyze a network in a very short amount of time if proper controls are not in place.
-
-The incident management team quickly identified the source of the problem and responded immediately. Their first action was to block all incoming ICMP traffic to prevent further flooding. Next, they took non-critical network services offline to preserve system stability and prioritize the restoration of essential services. Critical business functions were restored to operational status as quickly as possible while the network continued to be monitored for additional anomalies.
-
-Once the immediate threat was mitigated, our cybersecurity team conducted a thorough investigation to determine how the attack was carried out. We discovered that the malicious actor exploited a misconfigured firewall, which allowed an uncontrolled stream of ICMP ping requests to enter the network. This vulnerability provided the attacker with the ability to flood our network and disrupt operations effectively.
- Mitigation Measures Implemented
- Firewall Rate Limiting: Configured a new firewall rule to limit the rate of incoming ICMP packets.  
-Source IP Verification: Enabled source IP address validation on the firewall to detect and block spoofed IP addresses.  
-Network Monitoring: Deployed advanced monitoring software to track traffic patterns and detect abnormal spikes.  
-IDS/IPS Integration: Set up an intrusion detection and prevention system to filter suspicious traffic.
-
- NIST Cybersecurity Framework (CSF) Steps Applied
-1. Identify: Conduct regular audits of networks, systems, devices, and access privileges to identify potential vulnerabilities.  
-2. Protect: Implement policies, procedures, training, and technical controls to safeguard critical assets.  
- 3. Detect: Improve monitoring to quickly identify unusual traffic patterns or suspicious activity.  
-4. Respond: Refine incident response protocols to contain, neutralize, and analyze attacks effectively.  
- 5. Recover: Restore affected systems and data while updating security strategies to prevent recurrence.
-
- Overall, this DDoS incident highlighted both strengths and weaknesses in our network infrastructure. By analyzing the attack, implementing technical controls, and following the structured NIST CSF, we strengthened our defenses, improved incident response, and reduced the likelihood of future attacks. Continuous monitoring, proactive risk assessment, and team collaboration are essential in maintaining a secure and resilient network environment.
-
-<br />
-<br />
-Summary:  <br/>
- Recently, the organization I am working to secure experienced a Distributed Denial-of-Service (DDoS) attack. During the incident, network services were disrupted due to a flood of ICMP packets. In response, the incident management team blocked all incoming ICMP traffic and disabled non-essential network services to contain the impact. A subsequent investigation by the cybersecurity team revealed that the attack was made possible through an improperly configured firewall.
- Mitigation and Response Steps
-> - Blocked all incoming ICMP traffic to prevent further disruption.  
-> - Disabled non-essential network services to prioritize critical operations.  
-> - Conducted a full investigation to identify the source and method of the attack.  
-> - Corrected firewall misconfigurations to prevent similar attacks in the future.  
-> - Implemented monitoring and alerting to detect abnormal traffic patterns.  
-
-<br />
-<br />
-Identify: <br/>
- A review of the incident revealed that a firewall was not properly configured. This misconfiguration increased the attack surface by allowing ICMP traffic from external sources into the internal network. As a result, attackers were able to overwhelm the network with ICMP requests, causing a denial-of-service (DoS). The investigation also showed that the organization did not have the appropriate firewall rules in place to block this type of traffic.
->
->  Key Findings
-> - Firewall was improperly configured, allowing external ICMP traffic.  
-> - The network was vulnerable to DoS attacks due to this misconfiguration.  
-> - Appropriate firewall rules were not in place to block malicious traffic.  
-> - Corrective actions are required to secure the network against similar attacks.
-
-<br />
-<br />
-Protect:  <br/>
- Network Protection Measures
-> To protect the network from similar threats, the security team implemented the following changes:
-
-> - A new firewall rule to limit the rate of incoming ICMP packets.  
-> - Enabled source IP verification on the firewall to block spoofed traffic.  
-> - Updated the organization's firewall configuration review policy.  
-> - Scheduled regular firewall audits and vulnerability scans.
-
-<br />
-<br />
-Detect:  <br/>
-Threat Detection Enhancements
- To improve threat detection and reduce response time, the following changes were implemented:
-
- - Deployed network monitoring software to detect abnormal traffic patterns.  
-
- - Installed an Intrusion Detection/Prevention System (IDS/IPS) to analyze and filter incoming ICMP packets.  
-
-- Configured alerts to notify security personnel of large spikes in ICMP traffic or suspected DDoS activity.
-
-<br />
-<br />
-Respond:  <br/>
-Incident Response Actions
-During the incident, the following actions were taken:
- 
-- Blocked all incoming ICMP traffic.  
-
- - Disabled non-critical services to preserve bandwidth and resources.  
-
- - Prioritized restoring critical business services.  
- 
- - Conducted a forensic review of the firewall and network logs to trace the origin and method of the attack.
-
-<br />
-<br />
-Recover:  <br/>
- Recovery and Post-Incident Actions
-
- The IT team restored normal network operations within two hours. No data loss was reported. Following the recovery, the company:
-
-- Performed a post-incident review to identify lessons learned.
- 
-- Updated its incident response plan to include DDoS-specific procedures.  
-
-- Communicated the incident and remediation steps to stakeholders and executive leadership.
-
-Reflections:  <br/>
-
-A misconfigured firewall can leave the network vulnerable and lead to serious damage.
-
-<hr>
-<p><strong>Source:</strong> Scenario adapted from <a href="https://www.coursera.org" target="_blank">Coursera</a> course materials.
-
-> **Learning Source:** I completed the [Google Cybersecurity Certificate](https://www.coursera.org/professional-certificates/google-cybersecurity) program on Coursera, which helped me understand and apply the concepts demonstrated in this scenario.  
+<p>
+This project demonstrates my ability to analyze and respond to a Distributed Denial-of-Service (DDoS) attack using structured incident response methodologies. The scenario focuses on identifying vulnerabilities, implementing mitigation strategies, and aligning actions with the NIST Cybersecurity Framework (CSF).
 </p>
 
+<h2>Key Skills Demonstrated</h2>
+<ul>
+  <li>Incident Response & Analysis</li>
+  <li>DDoS Attack Identification (ICMP Flood)</li>
+  <li>Firewall Configuration & Hardening</li>
+  <li>Network Traffic Analysis</li>
+  <li>NIST CSF Application (Identify, Protect, Detect, Respond, Recover)</li>
+</ul>
 
+<h2>Tools & Technologies</h2>
+<ul>
+  <li>Firewall Configuration</li>
+  <li>Network Monitoring Tools</li>
+  <li>IDS/IPS Systems</li>
+</ul>
+
+<h2>Scenario Overview</h2>
+<p>
+A multimedia company experienced a DDoS attack that disrupted internal network services for approximately two hours. The attack consisted of a high volume of ICMP packets that overwhelmed network resources, preventing legitimate access to systems.
 </p>
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+<h2>Root Cause</h2>
+<ul>
+  <li>Misconfigured firewall allowed unrestricted ICMP traffic</li>
+  <li>No rate limiting or source validation in place</li>
+  <li>Lack of proactive monitoring for abnormal traffic spikes</li>
+</ul>
+
+<h2>Response Actions Taken</h2>
+<ul>
+  <li>Blocked incoming ICMP traffic to stop the attack</li>
+  <li>Disabled non-critical services to preserve system resources</li>
+  <li>Prioritized restoration of critical business systems</li>
+  <li>Performed log analysis to investigate attack origin</li>
+</ul>
+
+<h2>Mitigation & Security Improvements</h2>
+<ul>
+  <li>Implemented ICMP rate limiting on firewall</li>
+  <li>Enabled source IP validation to prevent spoofing</li>
+  <li>Deployed network monitoring for anomaly detection</li>
+  <li>Integrated IDS/IPS for real-time threat detection</li>
+</ul>
+
+<h2>NIST Cybersecurity Framework Application</h2>
+<ul>
+  <li><b>Identify:</b> Discovered firewall misconfiguration and network exposure</li>
+  <li><b>Protect:</b> Strengthened firewall rules and security policies</li>
+  <li><b>Detect:</b> Implemented monitoring and alerting for abnormal traffic</li>
+  <li><b>Respond:</b> Contained attack and restored critical services</li>
+  <li><b>Recover:</b> Restored operations and updated incident response plan</li>
+</ul>
+
+<h2>Outcome</h2>
+<ul>
+  <li>Network services restored within 2 hours</li>
+  <li>No data loss reported</li>
+  <li>Improved network security posture and monitoring capabilities</li>
+</ul>
+
+<h2>Key Takeaway</h2>
+<p>
+This project highlights the importance of proper firewall configuration, proactive monitoring, and structured incident response. It demonstrates my ability to analyze security incidents and implement effective mitigation strategies in a real-world scenario.
+</p>
+
+<h2>Source</h2>
+<p>
+Scenario adapted from coursework in the Google Cybersecurity Professional Certificate program.
+</p>
